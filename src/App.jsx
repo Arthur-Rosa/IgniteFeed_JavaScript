@@ -50,28 +50,6 @@ const posts = [
     ],
     publishedAt: new Date("2022-07-02 20:00:00"),
   },
-  {
-    id: 3,
-    author: {
-      avatarUrl: "https://avatars.githubusercontent.com/u/82879012?v=4",
-      name: "José Roberto",
-      role: "Instrutor de formação profissional - Senai",
-    },
-    content: [
-      { type: "paragraph", content: "Olá Pessoal" },
-      {
-        type: "paragraph",
-        content:
-          "Estou desenvolvendo uma nova plataforma em NODE.",
-      },
-      {
-        type: "link",
-        content: "Ecommerce em Node",
-        hrfe: "https://github.com/jsilvasenai/jogodavelha",
-      },
-    ],
-    publishedAt: new Date("2022-07-02 20:00:00"),
-  }
 ];
 
 export function App() {
